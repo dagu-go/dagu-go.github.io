@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Self-contained, easy-to-use workflow engine',
+  title: 'No-code, self-contained, and easy-to-use workflow engine',
   tagline: 'Manage workflows without making it hard to understand',
-  url: 'https://dagu.pages.dev',
+  url: 'https://dagu-go.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -63,7 +63,7 @@ const config = {
         title: 'Dagu',
         logo: {
           alt: 'Dagu Logo',
-          src: 'https://raw.githubusercontent.com/yohamta/dagu/22c434a8e20c91e9baa69e874d3a29e77826888a/assets/image/logo-transparent.png',
+          src: 'https://raw.githubusercontent.com/dagu-go/dagu/22c434a8e20c91e9baa69e874d3a29e77826888a/assets/image/logo-transparent.png',
         },
         items: [
           {
@@ -85,7 +85,7 @@ const config = {
             label: 'YAML Format',
           },
           {
-            href: 'https://github.com/yohamta/dagu',
+            href: 'https://github.com/dagu-go/dagu',
             label: 'GitHub',
             className: 'header-github-link',
             position: 'right',
@@ -109,7 +109,7 @@ const config = {
             items: [
               {
                 label: 'Discussions',
-                href: 'https://github.com/yohamta/dagu/issues',
+                href: 'https://github.com/dagu-go/dagu/issues',
               },
             ],
           },
@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/yohamta/dagu',
+                href: 'https://github.com/dagu-go/dagu',
               },
             ],
           },
