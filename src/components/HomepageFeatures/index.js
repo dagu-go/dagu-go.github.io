@@ -4,6 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    title: 'No-Code',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Workflows are defined in a simple YAML format.
+        Existing programs can be used without any modification.
+      </>
+    ),
+  },
+  {
     title: 'Self-Contained',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
@@ -13,17 +23,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Workflows can bed defined in a simple YAML format.
-        Existing programs can be used without any modification.
-      </>
-    ),
-  },
-  {
-    title: 'Built-in User Interface',
+    title: 'Easy-To-Use',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
