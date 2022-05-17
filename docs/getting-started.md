@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### 1. Installation
 
-Download the latest binary from the [Releases page](https://github.com/yohamta/dagu/releases) and place it in your `$PATH`. For example, you can download it in `/usr/local/bin`.
+Download the latest binary from the [Releases page](https://github.com/dagu-go/dagu/releases) and place it in your `$PATH`. For example, you can download it in `/usr/local/bin`.
 
 ### 2. Launch the web UI
 
