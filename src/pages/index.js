@@ -13,9 +13,8 @@ function HomepageHeader() {
       <div className="container">
         <div className="homepage-title">
           <h1 className="hero__title">
-            <span className='hl-text'>No-Code</span> and <span className='hl-text'>Self-Contained</span> and <span className='hl-text'>Easy-To-Use</span> Workflow Engine
+            A <span className='hl-text'>No-Code</span> workflow executor with <span className='hl-text'>built-in web UI</span>
           </h1>
-          <img align="right" width="150" src="https://user-images.githubusercontent.com/1475839/165412252-4fbb28ae-0845-4af2-9183-0aa1de5bf707.png" alt="dagu" title="dagu" />
         </div>
         <p className="hero__subtitle">
           {siteConfig.tagline}

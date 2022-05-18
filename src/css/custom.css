@@ -30,7 +30,7 @@
 }
 
 [data-theme='light'] .hl-text {
-  color: GoldenRod;
+  color: orange;
 }
 
 [data-theme='dark'] .hl-text {
@@ -39,6 +39,10 @@
 
 [data-theme='dark'] .hero__subtitle {
   color: white;
+}
+
+.hero__title {
+  word-break: keep-all;
 }
 
 [data-theme='dark'] .hero__title {

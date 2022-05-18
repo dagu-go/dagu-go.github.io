@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'No-Code',
+    title: 'Simple',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Workflows are defined in a simple YAML format.
-        Existing programs can be used without any modification.
+        You can define DAGs in a dead simple YAML format. No coding or boilerplate is needed.
       </>
     ),
   },
@@ -18,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        It is a single command and self-contained. There's no dependency on any.
+        It is a single file with no dependency. No DBMS or cloud service is required.
       </>
     ),
   },
@@ -27,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-      It comes with a web UI to visualize workflows, parameters, logs, and results.
-      You can also create, edit, and execute workflows in your browser.
+      It works out-of-the box with a web UI to visualize, create, and execute DAGs.
       </>
     ),
   },

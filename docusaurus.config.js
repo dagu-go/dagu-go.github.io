@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'No-code, self-contained, and easy-to-use workflow engine',
-  tagline: 'Manage workflows without making it hard to understand',
+  title: 'A No-Code workflow executor with built-in web UI',
+  tagline: '',
   url: 'https://dagu-go.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
